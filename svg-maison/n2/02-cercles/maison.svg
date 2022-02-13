@@ -17,7 +17,7 @@ Copier-coller le code svg de l'exercice précédent
 
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="340" width="340" style="background-color:#F6F7F7;">
   <!-- Bg Circle -->
-
+  <circle r="162" cx="170" cy="170" fill="#068C70" stroke="#ffffff" stroke-width="15"></circle>
   <!-- Chimney -->
   <rect height="21" width="14" fill="#FBF6A7" x="98" y="127"/>
   <rect height="4" width="20" fill="#E04E27" x="95" y="123"/>

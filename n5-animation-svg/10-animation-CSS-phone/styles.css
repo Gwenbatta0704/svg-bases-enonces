@@ -1,8 +1,30 @@
 /* 
 - centrer le body et lui donner une largeur de 50%,
   centrer son contenu inline (afin que le svg et le texte du titre soient centré)
-- faire en sirte que le svg occupe 30% de la largeur du body
-- animer le cerlce du téléphone au hover sur le svg : il doit rapetisser et grandir à partir de son centre
+- faire en sorte que le svg occupe 30% de la largeur du body
+- animer le cercle du téléphone au hover sur le svg : il doit rapetisser et grandir à partir de son centre
 - l'animation doit démarrer avec la taille d'origine, diminuer à la moitié de sa taille et revenir à sa taille de départ
 
 */
+body{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+svg{
+    height:auto;
+    width:30%;
+}
+svg:hover circle{
+    animation: pulse 2s infinite;
+    transform-origin: center;
+}
+@keyframes pulse {
+    0%{
+        transform: scale(1)
+    }50%{
+        transform: scale(0.5);
+     } 100%{
+           transform: scale(1)
+       }
+}

@@ -4,7 +4,16 @@ Vous avez aussi besoin de définir deux attributs,
 - xmlns="http://www.w3.org/2000/svg"
 - version="1.1"
 -->
+<svg height="400"
+     width="300"
+     xmlns="http://www.w3.org/2000/svg"
+     version="1.1"
+>
+<rect width="100" height="80" fill="#000"></rect>
+<rect id="white" width="80" height="50" fill="#fff" x="10" y="10"></rect>
+<rect width="40" height="10" fill="#000" x="30" y="90"></rect>
 
+</svg>
 <!--
 1. Placez-y un rectangle de 80 de haut et 100 de large (ce rectangle a, par défaut, un remplissage noir) ;
 2. Ajoutez un 2e rectangle de 50 de haut et 80 de large avec un remplissage blanc. 

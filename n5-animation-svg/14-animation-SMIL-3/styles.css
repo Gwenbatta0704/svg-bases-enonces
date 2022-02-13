@@ -26,6 +26,14 @@
 /* styler
 - le path pour qu'il ait une couleur yellowgreen, avec une bordure yellowgreen et des bords arrondis
 - le texte : augmenter l'espace inter-lettres à 2px
+Animer ce texte pour qu'il apparaisse depuis la droite (la fin de la ligne) et disparraisse à gauche (l'amener à -70%) en 7 secondes, l'animation doit boucler à l'infini
 */
-
-
+path{
+	fill: none;
+	stroke: yellowgreen;
+	stroke-width: 5;
+	stroke-linecap: round;
+}
+textPath{
+	letter-spacing: 2px;
+}

@@ -1,1 +1,36 @@
 /* Reprenez la feuille de style de l’exercice n2-02-animated-phone, nous allons la compléter pour rendre le téléphone responsive */
+img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+svg {
+    width:50%;
+    height:auto;
+}
+circle{
+    fill: none;
+    stroke:#008B6F;
+    stroke-width:7;
+}
+line{
+    stroke:#00392D;
+    stroke-width:5;
+    stroke-linecap:round;
+
+}
+text{
+    font-family: luckiest_guyregular;
+    font-size: 60px;
+    text-anchor: middle;
+    fill: #F6F7F3;
+    stroke: #00392D;
+    stroke-width: 3;
+}
+polygon {
+    stroke-width: 2;
+    stroke: #00392D;
+    stroke-linejoin: round;
+    fill: #008B6F;
+
+}

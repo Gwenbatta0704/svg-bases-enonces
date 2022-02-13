@@ -20,3 +20,31 @@
 	- une animation de 3.5 s linéaire et en boucle
 	- un trait environ au 4/5 vide
 **/
+svg{
+    width: 500px;
+    height: 500px;
+}
+svg polygon{
+    stroke: #000000;
+    fill: none;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-width: 4px;
+    animation: color 3.5s infinite linear;
+    stroke-dasharray: 200;
+}
+@keyframes color {
+
+0% {
+    stroke:#00aeef
+} 37.5%{
+    stroke:#ed1c24;
+} 67.5%{
+       stroke: #f69f37;
+} 100%{
+          stroke:#00aeef;
+}
+to {
+    stroke-dashoffset: 500;
+    }
+}

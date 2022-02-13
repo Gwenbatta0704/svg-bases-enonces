@@ -17,3 +17,15 @@
     stroke-width: 4.3;
     fill: none;
 }
+
+@keyframes dash {
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+path.animate{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear forwards;
+}

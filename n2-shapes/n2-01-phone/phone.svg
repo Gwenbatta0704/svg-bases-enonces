@@ -4,7 +4,14 @@ Vous avez aussi besoin de définir deux attributs,
 - xmlns="http://www.w3.org/2000/svg"
 - version="1.1"
 -->
-
+<svg height="180"
+     width="110"
+     xmlns="http://www.w3.org/2000/svg"
+     version="1.1"
+>
+    <rect width="70" height="100" stroke="#FF2626" stroke-width="10" fill="#fff" x="5" y="5" rx="5" ry="5"></rect>
+    <circle r="4" cx="40" cy="105" fill="#fff"></circle>
+</svg>
 <!--
 1. Placez-y un rectangle de 100 de haut et 70 de large avec une bordure rouge (#FF2626) de 10px de large et un remplissage blanc ;
 2. Affichez-le dans le navigateur : que se passe-t-il avec la bordure ?

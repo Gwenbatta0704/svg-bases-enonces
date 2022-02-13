@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="description" content="Description">
+		<link rel="stylesheet" href="style.css">
 		<title>Screen</title>
 	</head>
 	<body>
@@ -10,5 +11,15 @@
 			Le SVG d’un écran simplifié
 		</h1>
 		<!-- intégrer ici le svg grâce à la balise img avec, comme texte alternatif "Un écran simplifié" -->
+		<svg height="400"
+			 width="300"
+			 xmlns="http://www.w3.org/2000/svg"
+			 version="1.1"
+		>
+			<rect width="100" height="80" fill="#000"></rect>
+			<rect id="white" width="80" height="50" fill="#fff" x="10" y="10"></rect>
+			<rect width="40" height="10" fill="#000" x="30" y="90"></rect>
+		</svg>
+		<script src="main.js"></script>
 	</body>
 </html>

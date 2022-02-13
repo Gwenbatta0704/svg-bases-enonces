@@ -12,6 +12,8 @@
 
 svg {
   background-color:#F6F7F7;
+  height: auto;
+  width: 30%;
 }
 .background-circle {
   fill: #068C70;
@@ -60,4 +62,7 @@ text {
 .windows line{
   stroke: #E04E27;
   stroke-width: 4px;
+}
+#second,#third{
+  transform-origin: 228px 267px;
 }

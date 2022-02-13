@@ -15,10 +15,20 @@ ce svg contient
   * en (153, 222), un rectangle de 60 px de haut et 36 px de large de couleur #E04E27
   * en (183, 252), un rectangle de 8 px de haut et 2 px de large de couleur #FBF6A7
 -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340" style="background-color:#F6F7F7;">
+    <!-- Chimney -->
+    <rect height="21" width="14" x="98" y="127" fill="#FBF6A7"></rect>
+    <rect height="4" width="20" x="95" y="123" fill="#E04E27"></rect>
+    <!-- House -->
+    <rect height="84" width="162" x="90" y="198" fill="#FBF6A7"></rect>
+    <rect height="56" width="184" x="80" y="148" fill="#E04E27"></rect>
+    <!-- Door -->
+    <rect height="60" width="36" x="153" y="222" fill="#E04E27"></rect>
+    <rect height="8" width="2" x="183" y="252" fill="#FBF6A7"></rect>
+</svg>
 
 
-  <!-- Chimney -->
 
-  <!-- House -->
 
-  <!-- Door -->
+
+

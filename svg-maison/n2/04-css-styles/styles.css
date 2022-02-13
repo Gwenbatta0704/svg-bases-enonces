@@ -4,43 +4,45 @@ svg {
   background-color:#F6F7F7;
 }
 .background-circle {
- 
-  
+  fill:#068C70;
+  stroke:#ffffff;
+  stroke-width:15;
 
 }
 .chimney {
-
+  fill:#FBF6A7;
 }
 .chimney-topper {
-
+  fill:#E04E27;
 }
 .body {
-
+  fill:#FBF6A7;
 }
 .roof {
 
+  fill:#E04E27;
 }
 .door {
-
+  fill:#E04E27
 }
 .door-knob {
-
+  fill:#FBF6A7;
 }
 line {
-
-
-
+  stroke:#068C70;
+  stroke-width:1;
 }
 .flower-outer {
-
+  fill:#EC7E23;
 }
 .flower-inner {
-
+  fill:#FBCE1D;
 }
 text {
-
-
-
-
+  font-size:68px;
+  fill:#3E9FD8;
+  stroke-width:2;
+  stroke:#ffffff;
+  font-family:'luckiest_guyregular',serif;
 
 }

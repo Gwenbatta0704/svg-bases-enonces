@@ -13,9 +13,12 @@
 			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid meet">
 
 				<title>Le SVG, c’est trop fun !</title>
-
 				<path id="chemin" d="M 10,180 C 100,0 200,300 300,150 Q 340,100 385,120"/>
-				
+				<text><textPath href="#chemin">
+				<animate attributeName="startOffset"  from="100%" to="-70%" dur="7s" repeatCount="indefinite"/></animate>
+					Le SVG, c’est trop fun !
+				</textPath></text>
+
 				<!--
 				1°) Ecrire le texte "Le SVG, c’est trop fun !" le long de la ligne dessinée par la forme grâce à l'élément textPath
 				2°) Animer ce texte pour qu'il apparaisse depuis la droite (la fin de la ligne) et disparraisse à gauche (l'amener à -70%) en 7 secondes, l'animation doit boucler à l'infini

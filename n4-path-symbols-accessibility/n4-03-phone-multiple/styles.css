@@ -4,3 +4,21 @@
 	2. Dimensionnez le téléphone du haut à 10% de la taille de son parent
 	3. Dimensionnez le téléphone du bas à 30% de la taille de son parent 
  */
+.defined-icons{
+    display: none;
+}
+#phone rect, #phone circle {
+    fill: white;
+}
+#phone rect {
+    stroke: #FF2626;
+    stroke-width: 10px;
+}
+.small{
+    height: auto;
+    width: 10%;
+}
+.big{
+    height: auto;
+    width: 30%;
+}
